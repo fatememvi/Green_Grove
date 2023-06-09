@@ -1,0 +1,53 @@
+.header{
+  background-image: url(../img/0259.jpg);
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1250px;
+  height: 500px;
+  border-radius: 30px;
+  margin: 10px auto;
+}
+
+.header-title{
+display: flex;
+flex-direction: column;
+  width: 50%;
+position: absolute;
+    top: 40%;
+    left: 24%
+
+ 
+}
+.header-title:hover{
+  border-radius: 20px;
+  transition: ease-in 0.5s;
+
+}
+.header-title h1{
+  font-size: 3rem;
+  width: 300px;
+font-weight: 900;
+color:  #4eb060 ;
+background-color: #1b1d1f;
+opacity: calc(5px);
+text-align: center;
+
+  
+}
+
+.button a button{
+  padding: 10px;
+  font-size: 20px;
+  font-family:'Poppins', sans-serif;
+  margin: 5px;
+font-weight: bold;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 25px;
+color: black;
+background-color: #fff;
+}

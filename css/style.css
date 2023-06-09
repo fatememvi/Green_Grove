@@ -1,0 +1,67 @@
+@import "_nav.css";
+@import "_header.css";
+@import "_product-benefits.css";
+@import "_popular-meals.css";
+@import "_testiomonials.css";
+@import "_footer.css";
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Amiri', serif;
+
+
+  direction: ltr;
+}
+/* body {
+  background-color: #edfcf5;
+} */
+a {
+  text-decoration: none;
+}
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.img-responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.container {
+  clear: both;
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-fliud {
+  width: 100%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class^="col-"] {
+  float: left;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.mg-bt{
+  margin-bottom: 100px;
+
+}

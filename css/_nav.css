@@ -1,0 +1,50 @@
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px;
+  margin: auto;
+  background-color: #a0e7a0;
+  min-height: auto;
+}
+.navigation .logo i {
+  color: green;
+  font-size: 25px;
+}
+.menu{
+  display: flex;
+}
+.menu li a{
+  font-family:'Poppins', sans-serif;
+  font-weight: bold;
+ padding: 3px 10px;
+ color: #3b3b3b;
+}
+.right-nav{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 25px;
+}
+.right-nav a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #202020;
+}
+.right-nav .like{
+  background-color: #d7eac0;
+  color: #ff6c57;
+}
+.right-nav .cart{
+  background-color: #d7eac0;
+  color: #4eb060;
+
+
+}
+.menu li a:hover{
+  color: #ffff;
+  transition: all ease .5s;
+}
